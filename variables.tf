@@ -1,17 +1,21 @@
 variable "region" {
-  default = "us-west-2"
+  description = "The AWS region to deploy resources"
+  type        = string
 }
 
 variable "vpc_cidr" {
-  default = "10.0.0.0/16"
+  description = "The CIDR block for the VPC"
+  type        = string
 }
 
 variable "public_subnet_cidrs" {
-  default = ["10.0.1.0/24", "10.0.2.0/24"]
+  description = "The CIDR blocks for the public subnets"
+  type        = list(string)
 }
 
 variable "private_subnet_cidrs" {
-  default = ["10.0.3.0/24", "10.0.4.0/24"]
+  description = "The CIDR blocks for the private subnets"
+  type        = list(string)
 }
 
 variable "db_username" {
