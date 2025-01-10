@@ -47,3 +47,16 @@ RDS Endpoint
 DynamoDB Table Name
 
 Redis Endpoint
+
+# terraform.tfvars - Contains the variable values used by Terraform. Note: In real-world projects, the terraform.tfvars file should not be uploaded to version control systems (e.g., GitHub) as it may contain sensitive information such as credentials and passwords. Instead, use environment variables or secret management tools to handle sensitive data.
+
+.tfvars - 
+
+region = "us-west-2"
+vpc_cidr = "10.0.0.0/16"
+public_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnet_cidrs = ["10.0.3.0/24", "10.0.4.0/24"]
+db_username = "******"
+db_password = "*******"
+s3_bucket_name = "unique-log-bucket-name-kk"
+
