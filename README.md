@@ -1,6 +1,6 @@
 # Terraform_POC
-Terraform-Project_POC
-Terraform AWS Infrastructure Setup This project contains Terraform code to set up a comprehensive AWS infrastructure. The configuration includes a Virtual Private Cloud (VPC) with public and private subnets, necessary networking components, and essential AWS services such as S3, RDS, DynamoDB, and ElastiCache.
+****************
+This project contains Terraform code to set up a comprehensive AWS infrastructure. The configuration includes a Virtual Private Cloud (VPC) with public and private subnets, necessary networking components, and essential AWS services such as S3, RDS, DynamoDB, and ElastiCache.
 
 Prerequisites Terraform v1.9.8 or later
 
